@@ -42,8 +42,8 @@ out/
 .vscode/
 
 # Allow application config files
-!application.properties
-!application.yml
+!src/main/resources/*.properties
+!src/main/resources/*.yml
 
 # Allow scripts
-!*.bat
+!src/main/resources/*.bat
