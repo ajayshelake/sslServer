@@ -1,0 +1,12 @@
+server:
+  port: 1024
+  ssl:
+    enabled: true
+    key-store: classpath:server.p12
+    key-store-password: password
+    key-store-type: PKCS12
+    key-alias: server
+    trust-store: classpath:truststore.jks
+    trust-store-password: password
+    trust-store-type: JKS
+    client-auth: want
